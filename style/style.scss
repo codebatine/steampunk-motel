@@ -1,0 +1,136 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'DM Sans', sans-serif;
+}
+
+@import './header';
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+a {
+	color: inherit;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+button {
+	border: 1px solid;
+	background-color: transparent;
+}
+
+.responsive-container {
+	max-width: 1080px;
+	min-height: 30vh;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+main {
+	margin-top: 5rem;
+	padding-top: 2rem;
+	padding-bottom: 6rem;
+	flex: 1 0 auto;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 2rem;
+}
+
+.grid-column {
+	display: flex;
+	flex-direction: column;
+	& > * + * {
+		margin-top: 2rem;
+	}
+}
+
+.grid-order {
+	display: none;
+}
+
+@import './product';
+
+#dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #f9f9f9;
+    width: 200px;
+    padding: 10px;
+    display: none;
+}
+
+#dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content button {
+    display: block;
+    margin: 5px 0;
+    padding: 5px 10px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+.dropdown-content button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.connect-wallet-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.connect-wallet-text {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.connect-wallet-button {
+    padding: 10px 30px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #000;
+    border: solid 2px #000;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.connect-wallet-button:hover {
+    background-color: #000000;
+	color: #fff;
+}
+
+footer {
+    margin-top: 3rem;
+    text-align: center;
+    color: #777;
+    font-size: .875rem;
+}
+
+@import './screens';

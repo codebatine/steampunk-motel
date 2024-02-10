@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steampunk Motel</title>
+    <link rel="stylesheet" href="style/style.min.css">
+    <script src="./js/app.js" type="module" defer></script>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel=" preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header-content">
+            <div class="header-logo">
+                <a href="index.html">
+                    <h1 class="logo">Steampunk Motel</h1>
+                </a>
+            </div>
+            <nav class="header-navigation">
+                <a href="about.html" class="link-button">About</a>
+                <div id="dropdown" class="dropdown">
+                    <a href="#" id="yourCart" class="link-button">Your Cart</a>
+                    <div id="cartContent" class="dropdown-content">
+                        <button class="clear-cart-button">Clear Cart</button>
+                        <button id="completeOrder" class="complete-order-button">Complete Order</button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+
+        <div class="responsive-container">
+            <div class="grid" id="productContainer"></div>
+
+            <div id="product-modal" class="modal">
+                <span class="close">&times;</span>
+                <img id="modal-image" class="product-image" src="" alt="">
+            </div>
+        </div>
+        <footer>
+            <h3>By Steampunk Motel</h3>
+            <a href='https://github.com/codebatine' target="_blank" rel="noopener noreferrer">GitHub</a> | 
+            <a href='https://www.linkedin.com/in/sanjindumisic' target="_blank" rel="noopener noreferrer">LinkedIn</a> | 
+            <a href='https://www.youtube.com/sanjindumisic' target="_blank" rel="noopener noreferrer">YouTube</a>
+        </footer>
+    </main>
+</body>
+
+</html>
