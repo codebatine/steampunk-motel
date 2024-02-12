@@ -8,7 +8,7 @@ A dynamic Proof-of-Concept site with javascript. Steampunk images on sale for Mo
 
 ![Steampunk Motel Site Screenshot.](./img/steampunk-motel-1.png 'Steampunk Motel Site Screenshot.')
 
-![Steampunk Motel Site Screenshot.](./img/steampunk-motel-1.png 'Steampunk Motel Site Screenshot.')
+![Steampunk Motel Site Screenshot.](./img/steampunk-motel-2.png 'Steampunk Motel Site Screenshot.')
 
 ## Steampunk Images
 
